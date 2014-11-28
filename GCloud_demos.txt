@@ -1,0 +1,48 @@
+Script for command-line demos
+
+1) Open Terminal 
+
+	clear
+
+2) Use gcloud
+
+	gcloud auth login
+
+	gcloud config set project <your project id>
+	
+	gcloud unset project 
+
+	gcloud config list
+
+	gcloud components list
+
+3) Use gcutil
+
+	gcutil listinstances
+
+	gcutil addinstance <your instance name>
+
+	gcutil listinstances
+
+	gcutil deleteinstance <your instance name>
+
+4) Use gsutil
+
+	gsutil 
+
+	gsutil ls
+
+	gsutil mb gs://<your bucket name>
+
+	gsutil rb gs://<your bucket name>
+
+
+5) Use bq
+
+	bq
+
+	bq show abc
+
+	bq query select count(*) from publicdata:samples.shakespeare
+
+	
